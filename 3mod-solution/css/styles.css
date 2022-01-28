@@ -1,0 +1,135 @@
+#header-nav {
+    background-color: gray;
+    border: 3px solid black;
+   
+}
+.container {
+
+    margin-left: 10px;
+    
+}
+.navbar-brand {
+    padding-top: auto;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;}
+
+
+    #nav-list {
+      margin-top: 10px;
+      
+    }
+    #nav-list a {
+      color: #050505;
+      text-align: center;
+    }
+    #nav-list a:hover {
+      background: #E7E7E7;
+    }
+    #nav-list a span {
+      font-size: 1.8em;
+    }
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+      border: 1px solid #000000;
+    }
+    .navbar-header button.navbar-toggle {
+      clear: both;
+      margin-top: -30px;
+    }  
+    
+    .navbar-toggle {
+      border-color: black !important;
+      border: 3px solid black !important;
+    }
+    #collapsable-nav {
+      background-color: white;
+    }
+    
+span {background-color: black !important;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+hr {
+  margin:0 10% 0 ;
+  border-top: 2px solid black;
+  text-align: center;
+  width:80% ;
+}    
+
+    /********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+/* Simple Responsive Framework. */
+.row{
+  width:100%;
+  margin: auto;
+}
+#menu{
+  background-color:gray;
+  border:3px solid black;
+  margin:10px;
+  color: black;
+  margin-top: 25px;
+}
+.listmenu {
+
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#detail{
+  margin:15px;
+  clear:right;
+  font-weight: 530;
+}
+
+/*main */
+
+h2 {text-align: center;
+     font-size: 1.9em;
+    font-weight: 700;
+    
+}
+
+
+
+a {
+  
+  font-size: 119%;
+  text-decoration: none;
+}
